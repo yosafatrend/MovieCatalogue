@@ -1,0 +1,50 @@
+1. Unit Test Scenario
+- MoviesViewModelTest
+
+	Memuat Movies
+	Memastikan data Movies tidak null.
+	Memastikan jumlah data Movies sesuai dengan yang diharapkan.
+
+-TvShowsViewModelTest:
+
+	Memuat TvShows
+	Memastikan data TvShows tidak null.
+	Memastikan jumlah data TvShows sesuai dengan yang diharapkan.
+
+-DetailContentViewModelTest:
+
+	Memuat Movies:
+	Memastikan data Movies tidak null.
+	Memastikan data Movies sesuai dengan yang diharapkan.
+
+	Memuat TvShows:
+	Memastikan data TvShows tidak null.
+	Memastikan data TvShows sesuai dengan yang diharapkan.
+
+2. Instrumental Test Scenario
+
+-Menampilkan data movies
+	Memastikan rv_movies dalam keadaan tampil.
+	Gulir rv_movies ke posisi data terakhir.
+
+-Menampilkan data detail movies
+	Memberi tindakan klik pada data pertama di rv_movies.
+	Memastikan TextView untuk title tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk director tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk release date tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk duration tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk genre tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk storyline tampil sesuai dengan yang diharapkan.
+
+-Menampilkan data tvShows
+	Memastikan rv_tvshows dalam keadaan tampil.
+	Gulir rv_tvshows ke posisi data terakhir.
+
+-Menampilkan data detail tvShows
+	Memberi tindakan klik pada data pertama di rv_tvshows.
+	Memastikan TextView untuk title tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk director tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk release date tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk episodes tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk genre tampil sesuai dengan yang diharapkan.
+	Memastikan TextView untuk storyline tampil sesuai dengan yang diharapkan.
